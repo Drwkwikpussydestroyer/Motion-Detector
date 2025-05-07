@@ -152,7 +152,7 @@ class HomeGlow(MDApp):
         if alarm_mode:
             self.label.text = "Alarm mode is ON"
             self.label.text_color = get_color_from_hex("#4CAF50")  # Green text
-            self.button.text = "Close"
+            self.button.text = "Off"
             self.button.md_bg_color = get_color_from_hex("#5CAF50")  # Green
             self.button.text_color = get_color_from_hex("#FFFFFF")   # White
         else:
@@ -165,3 +165,7 @@ class HomeGlow(MDApp):
         print("Alarm mode toggled:", "ON" if alarm_mode else "OFF")
 
 HomeGlow().run()
+
+
+
+#andrew made oollaattt
